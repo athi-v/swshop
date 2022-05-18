@@ -169,6 +169,22 @@ background: rgb(0, 0, 0);
 color: azure;
 }
 
+.sun, .moon {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.moon {
+  right: 5px;
+}
+
+.sun {
+  left: 5px;
+}
+
 
 /* hero  */
 .hero .container {
