@@ -7,6 +7,14 @@
     <meta name="description" content="Crypto Workshop" />
 
     <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/53a7d96a91.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Crypto Workshop</title>
   </head>
   <body>
@@ -14,17 +22,42 @@
     <header>
       <nav class="navbar">
         <div class="logo">
-          <h2><a href="">Sharenet</a></h2>
-          <label id="dark-change">         
+          <a href=""><img src="assets/Sharenet_Logo.png" /></a>
+          <label id="dark-change">
+            <svg
+              class="sun"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                id="sun"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+              />
+            </svg>
 
-            <svg  class='sun' xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path id='sun' stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-              </svg>
-
-              <svg class='moon' xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path id='moon' stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-              </svg>
-            </label>
+            <svg
+              class="moon"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                id="moon"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+              />
+            </svg>
+          </label>
         </div>
       </nav>
     </header>
@@ -32,13 +65,12 @@
     <!-- Banner -->
     <div class="hero">
       <div class="container">
-        <div class="left">
-          <p>Buy & Sell Crypto 24/7 using your retirement account</p>
-          <h1>Invest in Cryptocurreny with Your IRA</h1>
-          <p>Buy, Sell, and store hundreds of cryptocurrencies</p>
-        </div>
-        <div class="right">
-          <img src="hero-img.png" />
+        <div class="centers">
+          <h3>25 - 30 May 2022</h3>
+          <h1>CRYPTOCURRENCIES AND CRYPTOCRIME</h1>
+          <h3>Managing Risks, Harnessing Innovation.</h3>
+          <button class="btn">SAVE YOUR SPOT</button>
+          <h4>A Virtual Workshop for FinCrime Professionals</h4>
         </div>
       </div>
     </div>
@@ -47,38 +79,65 @@
     <div class="featured">
       <div class="container">
         <div class="left">
-          <h2>Explore top Crypto's Like Bitcoin, Ethereum, and Dogecoin</h2>
-          <p>See all available assets: Cryptocurrencies and NFT's</p>
-          <button class="btn">See More Coins</button>
+          <h2>WHY ATTEND?</h2>
+          <ul>
+            <li>Hands-On Exercise</li>
+            <li>Knowledge Checks and Assessments</li>
+            <li>Extended Q&A and Polling</li>
+            <li>Up to 11 CFCS and CPE NASBA Credits</li>
+          </ul>
         </div>
 
         <div class="right">
           <div class="card">
             <div class="top">
-              <h4>Bitcoin</h4>
+              <h4>NON-MEMBER</h4>
             </div>
             <div>
-              <h5>Bitcoin</h5>
-              <p>R2</p>
+              <h5>R100</h5>
+              <p>EARN UP TO 11 CREDITS</p>
+              <button class="btn">Register</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="top">
+              <h4>MEMBER</h4>
+            </div>
+            <div>
+              <h5>R50</h5>
+              <p>EARN UP TO 11 CREDITS</p>
+              <button class="btn">Register</button>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Sign -->
-    <div class="signup">
+    <!-- about -->
+    <div class="about">
       <div class="container">
         <div className="left">
-          <img src="trade.png" alt="" />
+          <img src="assets/who.png" alt="" />
         </div>
 
         <div class="right">
-          <h2>Earn passive income with crypto.</h2>
+          <h2>ABOUT THE WORKSHOP</h2>
           <p>
-            Earn up to 12% annual rewards on 30+ digital assets. Simply hold
-            your assets in the app to automatically earn rewards at the end of
-            each month with no lockups and no limits.
+            As the number of crypto-related businesses multiply and a growing
+            number of individuals hold cryptocurrencies, how should a financial
+            institution respond? Simply saying “we don’t bank crypto” is no
+            longer a viable option, especially as regulators have made crypto
+            risk a priority and most institutions have crypto exposure – whether
+            they know it or not.
+          </p>
+
+          <p>
+            In short, confronting financial crime in cryptocurrencies is now an
+            essential part of securing the financial system from criminals.
+            That’s why ACFCS and Chainalysis are launching their first workshop
+            focused solely on understanding and addressing financial crime
+            threats in cryptocurrencies.
           </p>
           <div class="input-container">
             <input type="email" placeholder="Enter your email" />
@@ -88,14 +147,46 @@
       </div>
     </div>
 
-<footer>
-    <div class="container">
-        <div>
-            2020
+    <!-- Work  -->
+    <div class="about">
+      <div class="container">
+        <div className="left">
+          <h2>THIS WORKSHOP WILL HELP YOU</h2>
+          <ul>
+            <li>
+              Understand crypto business models from crypto ATMs to exchanges
+              and P2P sites – how they can be exploited by bad actors, and how
+              they can pose risks to banks and the traditional financial sector
+            </li>
+            <li>
+              Learn the basics of investigations involving cryptocurrency,
+              including opensource techniques to trace transactions on the
+              blockchain and tips for recognizing potentially suspicious
+              transactions from a financial institution’s perspective
+            </li>
+            <li>
+              Comprehend techniques and best practices for managing crypto risk
+              at banks and other institutions, whether it’s indirect risk from
+              customer transactions or direct risk from banking crypto clients
+            </li>
+          </ul>
+          <div class="input-container">
+            <input type="email" placeholder="Enter your email" />
+            <button class="btn">Learn More</button>
+          </div>
         </div>
+
+        <div class="right">
+          <img src="assets/exercise.png" alt="" />
+        </div>
+      </div>
     </div>
 
-</footer>
+    <footer>
+      <div class="container">
+        <div>© 2022 SHARENET (PTY) Ltd, Cape Town, South Africa</div>
+      </div>
+    </footer>
     <script src="javascript/script.js"></script>
   </body>
 </html>
