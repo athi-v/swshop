@@ -8,8 +8,7 @@ darkMode.addEventListener("click", function () {
 });
 
 document.getElementById("dt").innerHTML = dt.getFullYear();
-var check = document.getElementById("checkDate").innerHTML
- 
+
 var buts = document.getElementById("butID");
 
 window.onscroll = function () {
@@ -29,11 +28,3 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-function checkDates() {
-  if(20== dt.getDate) {
-console.log('unavai')  }
-  else if(21 == dt.getDate) {
-console.log('Hurry')  }
-  else if(22 == dt.getDate) {
-console.log("Seats Avail")  }
-}

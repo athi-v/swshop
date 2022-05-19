@@ -135,7 +135,7 @@ input {
     text-align: center;
     font-size: 1.6rem;
     line-height: 1.2;
-  }
+}
 
   h3 {
     font-size: 1.1rem;
@@ -259,17 +259,16 @@ body.night {
   padding: 2rem 0;
 }
 
-@media screen and (max-width: px) {
-  .hero .container {
+@media screen and (max-width: 940px) {
+  /* .hero .container {
     margin: 5rem 0 10rem 0;
-  }
+  } */
 }
 
 /* Seats */
 .seats {
   width: 100%;
   padding: 5rem 0 1rem 0;
-
 }
 
 .seats .container {
@@ -277,32 +276,29 @@ body.night {
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
-
 }
 
-.seats .left, .right, .center {
+.seats .left,
+.right,
+.center {
   text-align: center;
   margin: 0px 5px;
-
 }
 
 .seats .frame {
   border: 1px solid;
   border-radius: 25px;
   margin: 0px 5px;
-
 }
 
 @media screen and (max-width: 940px) {
   .seats .container {
     grid-template-columns: repeat(1, 1fr);
-
   }
   .seats .frame {
-    margin: 5px 0px;
-  
+    width: 80%;
+    margin: 15px auto;
   }
-  
 }
 /* Features */
 .featured {
@@ -436,9 +432,7 @@ body.night {
   transition: 0.5s ease-in-out;
 }
 
-.work .right p {
-  margin: 2rem 0;
-}
+
 
 @media screen and (max-width: 940px) {
   .work .container {
@@ -454,3 +448,4 @@ footer .container {
   text-align: center;
   padding: 50px;
 }
+
